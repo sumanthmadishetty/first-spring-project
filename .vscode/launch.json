@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FirstSpringProjectApplication",
+      "request": "launch",
+      "mainClass": "com.sumanth.firstSpringProject.FirstSpringProjectApplication",
+      "projectName": "firstSpringProject"
+    }
+  ]
+}
