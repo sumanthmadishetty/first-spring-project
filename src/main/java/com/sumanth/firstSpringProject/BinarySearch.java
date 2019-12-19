@@ -11,10 +11,10 @@ public class BinarySearch {
   @Autowired
   private SortAlgorithm sortAlgorithm;
 
-  public BinarySearch(SortAlgorithm sortAlgorithm) {
-    super();
-    this.sortAlgorithm = sortAlgorithm;
-  }
+  // public BinarySearch(SortAlgorithm sortAlgorithm) {
+  // super();
+  // this.sortAlgorithm = sortAlgorithm;
+  // }
 
   public int binarySearchC(int[] numbers, int search) {
     System.out.println(numbers);

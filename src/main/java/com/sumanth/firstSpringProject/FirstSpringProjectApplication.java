@@ -11,6 +11,7 @@ public class FirstSpringProjectApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext applicationContext = SpringApplication.run(FirstSpringProjectApplication.class,
 				args);
+		// BubbleSort buble = applicationContext.getBean(BubbleSort.class)
 		BinarySearch binary = applicationContext.getBean(BinarySearch.class);
 		int result = binary.binarySearchC(new int[] { 3, 4, 4 }, 5);
 		System.out.println(result);
